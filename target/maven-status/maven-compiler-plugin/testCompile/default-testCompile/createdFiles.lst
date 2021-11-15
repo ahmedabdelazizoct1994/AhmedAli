@@ -1,0 +1,4 @@
+tests\TestPurchaseProduct.class
+utilities\Helper.class
+tests\TestBase.class
+data\JsonDataReader.class

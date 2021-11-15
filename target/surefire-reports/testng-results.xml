@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-15T20:22:35 EET" name="Suite" finished-at="2021-11-15T20:22:36 EET" duration-ms="1079">
+    <groups>
+    </groups>
+    <test started-at="2021-11-15T20:22:35 EET" name="Test" finished-at="2021-11-15T20:22:36 EET" duration-ms="1079">
+      <class name="tests.TestPurchaseProduct">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:32 EET" name="startDriver" finished-at="2021-11-15T20:22:35 EET" duration-ms="2925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserCanLoginSuccssfully()[pri:1, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:35 EET" name="UserCanLoginSuccssfully" description="User login with valid data in sauceDemo website" finished-at="2021-11-15T20:22:35 EET" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLoginSuccssfully -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:35 EET" name="screenshotOnFailure" finished-at="2021-11-15T20:22:35 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLoginSuccssfully status=SUCCESS method=TestPurchaseProduct.UserCanLoginSuccssfully()[pri:1, instance:tests.TestPurchaseProduct@add0edd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanAddProductsTOCart()[pri:2, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:35 EET" name="UserCanAddProductsTOCart" description="User adds product to his cart" finished-at="2021-11-15T20:22:35 EET" depends-on-methods="tests.TestPurchaseProduct.UserCanLoginSuccssfully" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddProductsTOCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:35 EET" name="screenshotOnFailure" finished-at="2021-11-15T20:22:35 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddProductsTOCart status=SUCCESS method=TestPurchaseProduct.UserCanAddProductsTOCart()[pri:2, instance:tests.TestPurchaseProduct@add0edd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCheckoutProduct()[pri:3, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:35 EET" name="UserCheckoutProduct" description="User checkout the product " finished-at="2021-11-15T20:22:35 EET" depends-on-methods="tests.TestPurchaseProduct.UserCanAddProductsTOCart" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCheckoutProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:35 EET" name="screenshotOnFailure" finished-at="2021-11-15T20:22:35 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCheckoutProduct status=SUCCESS method=TestPurchaseProduct.UserCheckoutProduct()[pri:3, instance:tests.TestPurchaseProduct@add0edd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userFillCheckoutInfo()[pri:4, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:35 EET" name="userFillCheckoutInfo" description="User fills his data into checkout form (fname,...)" finished-at="2021-11-15T20:22:36 EET" depends-on-methods="tests.TestPurchaseProduct.UserCheckoutProduct" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFillCheckoutInfo -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:36 EET" name="screenshotOnFailure" finished-at="2021-11-15T20:22:36 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFillCheckoutInfo status=SUCCESS method=TestPurchaseProduct.userFillCheckoutInfo()[pri:4, instance:tests.TestPurchaseProduct@add0edd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userFinsihCheckoutProcess()[pri:5, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:36 EET" name="userFinsihCheckoutProcess" description="User submits his order" finished-at="2021-11-15T20:22:36 EET" depends-on-methods="tests.TestPurchaseProduct.userFillCheckoutInfo" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFinsihCheckoutProcess -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:36 EET" name="screenshotOnFailure" finished-at="2021-11-15T20:22:36 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFinsihCheckoutProcess status=SUCCESS method=TestPurchaseProduct.userFinsihCheckoutProcess()[pri:5, instance:tests.TestPurchaseProduct@add0edd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.TestPurchaseProduct@add0edd]" started-at="2021-11-15T20:22:36 EET" name="stopDriver" finished-at="2021-11-15T20:22:36 EET" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.TestPurchaseProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
