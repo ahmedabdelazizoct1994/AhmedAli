@@ -1,0 +1,56 @@
+#  AhmedAliMohamed
+
+
+# ************* SauceDemo Task *******************#
+
+
+Useing Seleniun webdriver framework I managed to write automation code to simulate a user checking out a product through SauceDemo website.
+
+
+# Tech:
+
+- Java 
+- Maven 
+- TestNG 
+- DDT
+- POM Design Pattern
+
+
+
+# Used Helper class to take screenshot when the test cases fail( in Screenshot folder)
+
+# Used JsonDataReader class to read from jsonFile
+
+
+
+# Requirements:
+
+
+*Eclips(install Testng from marketPlace)
+*JDK15
+*let POM file install the dependencies
+
+
+# Steps:
+
+
+*Clone the project 
+*We have two ways to run the project
+1-open testng, click right and run.
+2-Run using cmd
+ 2.1-open cmd 
+ 2.2-open project directoy (using cd "project path")
+ 2.3-Type mvn clean install
+
+# Viola!!!
+
+
+
+
+# Exceptions:
+
+If the test case is failed
+         | Refersh the project and open screenshot  and check|
+
+
+Thanks
